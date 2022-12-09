@@ -1,0 +1,27 @@
+<!doctype html>
+<html> 
+    <head> 
+        <title>
+            Gatos sao legais
+        </title>    
+    </head>    
+    <body>
+        <h1>
+            Gosto de gatos de cor {{cor}}
+        </h1>
+        <h2>
+            Não gosto de {{maiorMedo}}
+        </h2>
+        <form>
+            <label for="fname">
+                digite porque voce acha que o Brasil vacilou tanto
+            </label>
+            <input type="text" id ="fname" name="fname"><br><br>
+    
+        </form>
+        <button type="button">
+            Batata, clica em mim! to com fome ;-;
+        </button>
+        <img src="{{url_for('static', filename='batata.webp')}}"/>
+    </body>
+</html>
